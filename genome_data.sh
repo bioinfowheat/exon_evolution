@@ -8,6 +8,10 @@
 
 Pieris_napi-GCA_905231885.1-softmasked.fa
 
+# download using
+https://u.pcloud.link/publink/show?code=XZffQSVZYC1gYEm8Il8CxUx49HEY95VNvGL7
+
+
 # RS annotation of the DToL genome
 # Braker protein based annotation renamed with tsebra reformatted with agat.
 # /mnt/griffin/racste/P_napi/refs/braker2/merge_annot/Pieris_napi_brakerProt_rename_agat.gff
