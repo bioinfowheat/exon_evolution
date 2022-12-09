@@ -70,7 +70,7 @@ braker.pl
 DESCRIPTION
 
 braker.pl   Pipeline for predicting genes with GeneMark-EX and AUGUSTUS with
-            RNA-Seq and/or proteins
+			RNA-Seq and/or proteins
 
 SYNOPSIS
 
@@ -78,16 +78,16 @@ braker.pl [OPTIONS] --genome=genome.fa {--bam=rnaseq.bam | --prot_seq=prot.fa}
 
 INPUT FILE OPTIONS
 
---genome=genome.fa                  fasta file with DNA sequences
---bam=rnaseq.bam                    bam file with spliced alignments from
-                                    RNA-Seq
---prot_seq=prot.fa                  A protein sequence file in multi-fasta
-                                    format used to generate protein hints.
-                                    Unless otherwise specified, braker.pl will
-                                    run in "EP mode" which uses ProtHint to
-                                    generate protein hints and GeneMark-EP+ to
-                                    train AUGUSTUS.
---hints=hints.gff                   Alternatively to calling braker.pl with a
+--genome=genome.fa				  fasta file with DNA sequences
+--bam=rnaseq.bam					bam file with spliced alignments from
+									RNA-Seq
+--prot_seq=prot.fa				  A protein sequence file in multi-fasta
+									format used to generate protein hints.
+									Unless otherwise specified, braker.pl will
+									run in "EP mode" which uses ProtHint to
+									generate protein hints and GeneMark-EP+ to
+									train AUGUSTUS.
+--hints=hints.gff				   Alternatively to calling braker.pl with a
 
 
 
